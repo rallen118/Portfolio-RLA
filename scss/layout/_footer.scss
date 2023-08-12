@@ -1,3 +1,43 @@
 /* =============
     Footer
 ============= */
+footer{
+    background-color: var(--teal);
+
+    #footer-bottom{
+        background-color:var(--aquamarine);
+           // love // hate
+   a:link, a:visited{
+    color:var(--fuschia);
+    text-decoration: none;
+}
+
+a:hover, a:active{
+color: var(--orange);
+}
+}
+#footer-right{
+    background-color:var(--teal);
+       // love // hate
+a:link, a:visited{
+color:var(--fuschia);
+text-decoration: none;
+}
+
+a:hover, a:active{
+color: var(--orange);
+}
+}
+#footer-left{
+    background-color:var(--teal);
+       // love // hate
+a:link, a:visited{
+color:var(--fuschia);
+text-decoration: none;
+}
+
+a:hover, a:active{
+color: var(--orange);
+}
+}
+}

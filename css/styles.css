@@ -13,6 +13,12 @@ html {
 :root {
   --black: #000000;
   --white: #ffffff;
+  --fuschia: #FF00FF;
+  --lavender: #E6E6FA;
+  --aquamarine: #7FFFD4;
+  --teal: #008080;
+  --limegreen: #32CD32;
+  --orange: #FFA500;
 }
 
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
@@ -331,6 +337,32 @@ template {
 /* =============
     Base
 ============= */
+body {
+  background-color: var(--limegreen);
+}
+
+.content-grid {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 16px auto 16px;
+  grid-template-columns: 16px auto 16px;
+      grid-template-areas: ". content .";
+}
+.content-grid .content-grid-item {
+  -ms-grid-row: 1;
+  -ms-grid-column: 2;
+  background-color: var(--lavender);
+  grid-area: content;
+}
+
+#main-content-right .social-icons li a:link, #main-content-right .social-icons li a:visited {
+  color: var(--fuschia);
+  text-decoration: none;
+}
+#main-content-right .social-icons li a:hover, #main-content-right .social-icons li a:active {
+  color: var(--orange);
+}
+
 /* =============
     Typography
 ============= */
@@ -360,9 +392,105 @@ textarea {
 /* =============
     Navigation
 ============= */
+.orangeLink:link, .orangeLink:visited {
+  color: var(--orange);
+  text-decoration: none;
+}
+
+.orangeLink:hover, .orangeLink:active {
+  color: white;
+}
+
+nav {
+  background-color: var(--teal);
+}
+
 /* =============
     Header
 ============= */
 /* =============
     Footer
 ============= */
+footer {
+  background-color: var(--teal);
+}
+footer #footer-bottom {
+  background-color: var(--aquamarine);
+}
+footer #footer-bottom a:link, footer #footer-bottom a:visited {
+  color: var(--fuschia);
+  text-decoration: none;
+}
+footer #footer-bottom a:hover, footer #footer-bottom a:active {
+  color: var(--orange);
+}
+footer #footer-right {
+  background-color: var(--teal);
+}
+footer #footer-right a:link, footer #footer-right a:visited {
+  color: var(--fuschia);
+  text-decoration: none;
+}
+footer #footer-right a:hover, footer #footer-right a:active {
+  color: var(--orange);
+}
+footer #footer-left {
+  background-color: var(--teal);
+}
+footer #footer-left a:link, footer #footer-left a:visited {
+  color: var(--fuschia);
+  text-decoration: none;
+}
+footer #footer-left a:hover, footer #footer-left a:active {
+  color: var(--orange);
+}
+
+/* =============
+    Index
+============= */
+#index-left a:link, #index-left a:visited {
+  color: var(--orange);
+  text-decoration: none;
+}
+#index-left a:hover, #index-left a:active {
+  color: var(--white);
+}
+
+#main-content-right img {
+  width: 100%;
+}
+
+/* =============
+    About
+============= */
+#main-content-right img {
+  width: 100%;
+}
+
+/* =============
+    Resume
+============= */
+#main-content-right img {
+  width: 100%;
+}
+
+/* =============
+    Contact
+============= */
+#main-content-right img {
+  width: 100%;
+}
+
+/* =============
+    Associations
+============= */
+#main-content-right img {
+  width: 100%;
+}
+
+/* =============
+    Projects
+============= */
+#main-content-right img {
+  width: 100%;
+}

@@ -1,3 +1,18 @@
 /* =============
     Navigation
 ============= */
+
+// orange / white Link
+   // love // hate
+   .orangeLink:link, .orangeLink:visited{
+    color:var(--orange);
+    text-decoration: none;
+}
+
+.orangeLink:hover, .orangeLink:active{
+color: white;
+
+}
+nav{
+    background-color: var(--teal);
+}
