@@ -17,6 +17,12 @@ body{
     }
 }
 
+#main-content-grid{
+    @include lg{
+        display: grid;
+        grid-template-columns: 60% auto;
+    }
+}
 #main-content-right{
 .social-icons{
     li{
