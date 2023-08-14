@@ -364,6 +364,14 @@ body {
   }
 }
 
+#main-content-right {
+  border: 1px solid var(--limegreen);
+  margin: 200px 16px 16px;
+  padding: 16px;
+}
+#main-content-right img {
+  width: 100px;
+}
 #main-content-right .social-icons li a:link, #main-content-right .social-icons li a:visited {
   color: var(--fuschia);
   text-decoration: none;
@@ -375,6 +383,24 @@ body {
 /* =============
     Typography
 ============= */
+h1, h2, h3, h4, h5 {
+  padding: 16px;
+  margin: 16px;
+}
+
+p {
+  padding: 16px;
+  margin: 16px;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+}
+ul li {
+  list-style: none;
+}
+
 /* =============
     Buttons
 ============= */
@@ -417,6 +443,10 @@ nav {
 /* =============
     Header
 ============= */
+header {
+  padding: 48px 0;
+}
+
 /* =============
     Footer
 ============= */
@@ -463,6 +493,9 @@ footer {
   }
 }
 footer #footer-bottom {
+  text-align: center;
+}
+footer #footer-bottom {
   background-color: var(--aquamarine);
 }
 footer #footer-bottom a:link, footer #footer-bottom a:visited {
@@ -496,6 +529,18 @@ footer #footer-left a:hover, footer #footer-left a:active {
 /* =============
     Index
 ============= */
+#index-left h1 {
+  padding-bottom: 24px;
+}
+#index-left #index-quote {
+  padding-left: 16px;
+}
+#index-left ul {
+  list-style: bullet;
+}
+#index-left p {
+  padding-bottom: 16px;
+}
 #index-left a:link, #index-left a:visited {
   color: var(--orange);
   text-decoration: none;
@@ -541,4 +586,7 @@ footer #footer-left a:hover, footer #footer-left a:active {
 ============= */
 #main-content-right img {
   width: 100%;
+}
+#main-content-right ul {
+  list-style: bullet;
 }
